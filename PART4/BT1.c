@@ -1,7 +1,7 @@
 //
 // Created by huydo on 4/8/2024.
 //
-#inclde <stdio.h>
+#include <stdio.h>
 
 int main() {
     int a, b, c, d;
