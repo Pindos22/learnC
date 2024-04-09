@@ -19,6 +19,6 @@ int main() {
     printf("Nhap so f: ");
     scanf("%f", &f);
     z = a*b + (c/d) - e*f;
-    printf("Ket qua cua phuong trinh la: %0.4f", z);
+    printf("Ket qua cua phuong trinh la: %0.2f", z);
     return 0;
 }
