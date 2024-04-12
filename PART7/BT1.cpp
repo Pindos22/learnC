@@ -15,11 +15,13 @@ int main() {
 
     du = a%b;
 
-    if (du==0) {
-        printf("So thu nhat chia het cho so thu hai!\n");
-    } else {
-        printf("So thu nhat khong chia het cho so thu hai!\n");
+    switch (du) {
+        case 0:
+            printf("So thu nhat chia het cho so thu hai!\n");
+            break;
+        case 1:
+            printf("So thu nhat khong chia het cho so thu hai!\n");
+            break;
     }
-
     getchar();
 }
