@@ -5,7 +5,6 @@
 
 int main() {
     int a, b, hieu;
-
     printf("Nhap so thu nhat: ");
     scanf("%d", &a);
 

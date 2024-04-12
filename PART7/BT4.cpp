@@ -4,6 +4,7 @@
 #include "stdio.h"
 
 int main() {
+
     int slct, luong;
     printf("Nhap luong co ban cua nhan vien: $ ");
     scanf("%d", &luong);

@@ -4,7 +4,6 @@
 #include "stdio.h"
 
 int main() {
-
     int a, b, du;
 
     printf("Nhap so thu nhat: ");
