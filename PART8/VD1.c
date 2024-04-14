@@ -13,10 +13,8 @@ int main() {
            "3. Chuyen khoan\n"
            "4. Kiem tra lich su giao dich\n"
            "Nhan lua chon: ");
-
     int slct = 0;
     scanf("%d", &slct);
-
     if (slct>=1 && slct<=4) {
         switch (slct) {
             case 1:
