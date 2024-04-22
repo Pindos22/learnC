@@ -5,19 +5,19 @@
 
 int main() {
     char a[100];
-    printf("Nhap cau muon kiem tra: ");
-    fflush(stdin);
-    scanf("%[^\n]s", &a);
-
+    int i = 0;
     int na = 0;
     int pa = 0;
-    for (int i = 0; i < 100; ++i) {
-        /*if (a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u') {
-            na ++;
-        }*/
-        printf("%c", a[i]);
+    pr
+
+    while(a[i++] != '\0') {
+        if(a[i] == 'a' || a[i] == 'e' || a[i] == 'i' || a[i] == 'o' || a[i] == 'u' )
+            na++;
+        else
+            pa++;
     }
 
-//    printf("Van ban co %d nguyen am va %d phu am", na, pa);
-    getchar();
+    printf("Chuoi: '%s' \nCo chua: %d nguyen am va %d phu am.", a, na, pa);
+
+    return 0;
 }
