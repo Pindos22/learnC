@@ -27,8 +27,8 @@ int main() {
     int min = a[0];
     printf("\nMang gom:\n");
     for (int i = 0; i < 5; ++i) {
-        if (a[i] >= max) {max = a[i];}
-        if (a[i] <= min) {min = a[i];}
+        if (a[i] >= max) { max = a[i]; }
+        if (a[i] <= min) { min = a[i]; }
         printf("%d\t", a[i]);
     }
     printf("\nPhan tu lon nhat cua mang la: %d", max);
