@@ -11,6 +11,10 @@ int main() {
             printf("Nhap so thu %d: ", i + 1);
             scanf("%d", &a[i]);
         }
+        if (a[i] < 2) {
+            printf("So vua nhap khong phai so nguyen to, vui long nhap lai!\n");
+            goto nhap;
+        }
 
         int check = 0;
         for (int j = 1; j < a[i]; ++j) {
