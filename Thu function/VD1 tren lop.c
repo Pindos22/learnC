@@ -15,9 +15,9 @@ int main() {
         printf("Nhap chieu rong: ");
         scanf("%f", &rong);
         if (dai <= 0) {
-            printf("Chieu dai khong hop le!");
+            printf("Chieu dai khong hop le!\n");
         } else if (rong <= 0) {
-            printf("Chieu rong khong hop le!");
+            printf("Chieu rong khong hop le!\n");
         }
     } while (dai <= 0 || rong <= 0);
 
