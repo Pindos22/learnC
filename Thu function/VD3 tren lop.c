@@ -32,7 +32,7 @@ void boiso(int a, int b) {
         min = a;
     }
     for (int i = min; i <= max; ++i) {
-        if (50 % i == 0) {
+        if (i % 50 == 0) {
             printf("%d\t", i);
         }
     }
