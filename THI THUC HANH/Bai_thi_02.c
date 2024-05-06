@@ -36,5 +36,5 @@ int main() {
     int tiendien = cyrstalTienDien(dien);
     printf("The electricity bill is: %d VND", tiendien);
 
-    getchar();
+    return 0;
 }

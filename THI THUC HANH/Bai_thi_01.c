@@ -23,7 +23,7 @@ int main() {
     int result = findSmallest(n, arr);
     printf("\nThe smallest number in the array is: %d", result);
 
-    getchar();
+    return 0;
 }
 
 int findSmallest(int n, int a[]) {
